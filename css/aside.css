@@ -1,0 +1,52 @@
+/* aside */
+#aside{
+    position: relative;
+    top: 30vh;
+    width: 20%;
+    height: 500px;
+    padding: 5px;
+}
+
+#aside .box-aside li{
+    display: flex;
+    flex-direction: column;
+}
+
+#aside .box-aside li a{
+    text-decoration: none;
+    font-size: 3vmin;
+    color: #ddd;
+    padding: 2px;
+}
+
+#aside .box-aside p, #aside .box-input p{
+    font-size: 3vmin;
+    text-indent: 20px;
+    cursor: pointer;
+    text-align: justify;
+    margin: 10px;
+}
+
+#aside #search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 100%;
+    height: auto;
+    outline: none;
+    padding: 5px;
+    margin: 20px 0;
+    font-size: 3vmin;
+    border-radius: 5px;
+}
+
+#aside .box-input{
+    display: flex;
+    flex-direction: column;
+}
+
+#aside .box-input h2{
+    font-size: 4vmin;
+    margin: 10px 0;
+}

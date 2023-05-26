@@ -1,0 +1,12 @@
+.title{
+    width: 48%;
+    font-size: 7vmin;
+    color: #ddd;
+    padding: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.title:hover{
+    color: #fff;
+}
