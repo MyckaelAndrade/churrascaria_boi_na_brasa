@@ -1,10 +1,4 @@
 /* rodapé */
-.footer{
-    background-color: #532614;
-    width: 100%;
-    height: auto;
-}
-
 #map{
     display: block;
     margin-left: auto;
@@ -13,38 +7,79 @@
     height: 550px;
     border-radius: 10px;
 }
-
-#title-footer{
-    text-align: center;
-    font-size: 10vmin;
-    margin: 30px 0;
+.container {
+    max-width: 1170px;
+    margin: auto;
 }
 
-#main-footer{
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
-.box-footer{
-    text-align: center;
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #532614;
+    padding: 70px 0;
+    color: #bbb;
+    margin-top: 100px;
+}
+
+.footer-col {
     width: 25%;
-    height: auto;
-    margin: 30px 0;
+    padding: 0 15px;
 }
 
-.box-footer li{
-    display: flex;
-    flex-direction: column;
+.footer-col h4 {
+    font-size: 18px;
+    color: #bbb;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
 }
 
-.box-txt-footer{
-    font-size: 5vmin;
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    box-sizing: border-box;
+    width: 200px;
 }
 
-.box-footer li a{
-    color: #fff;
-    font-size: 4vmin;
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: rgb(255, 255, 255);
+    padding-left: 8px;
+}
+
+@media(max-width: 767px){
+.footer-col{
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+  width: 100%;
+}
 }
