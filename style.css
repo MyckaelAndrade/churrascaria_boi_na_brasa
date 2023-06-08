@@ -136,7 +136,7 @@ body{
 
 
 .title{
-    width: 80%;
+    width: auto;
     font-size: 7vmin;
     color: #000;
     padding: 40px;
