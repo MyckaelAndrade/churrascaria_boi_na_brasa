@@ -25,6 +25,7 @@ body{
 .header{
     width: 100%;
     height: auto;
+    background-color: #fff;
 }
 
 
@@ -38,7 +39,7 @@ body{
 
 .inf a{
     text-decoration: none;
-    color: #ddd;
+    color: #000;
     font-size: 3vmin;
     transition: .4s;
 }
@@ -58,13 +59,15 @@ body{
 }
 
 #menu ul{
-    display: flex;
-    flex-direction: row;
     list-style: none;
 }
 
+#menu li{
+    float: left;
+}
+
 #menu ul li a{
-    color: #ddd;
+    color: #000;
     text-decoration: none;
     font-size: 4vmin;
     border-radius: 5px;
@@ -74,26 +77,25 @@ body{
 }
 
 #menu ul li a:hover{
-    background-color: #292929a2;
+    background-color: #ddd;
 }
 
 
 
-.left{
-    width: 30%;
-    height: auto;
+.-left{
+    width: 15%;
+    background-color: #fff;
 }
 
-
-
-.list{
-    display: flex;
-    flex-direction: column;
+.column{
+    float: none;
+    padding: 20px 0;
 }
 
 
 
 .page{
+    height: 260vh;  
     display: flex;
     justify-content: space-evenly;
 }
@@ -102,13 +104,15 @@ body{
 
 #main{
     display: flex;
+    height: 260vh;
 }
 
 
 
 #box{
-    width: 80%;
+    width: 85%;
     height: auto;
+    padding: 10px;
 }
 
 .box-table{
@@ -124,7 +128,7 @@ body{
 
 .section p{
     color: #ddd;
-    font-size: 4vmin;
+    font-size: 3.7vmin;
     text-indent: 40px;
     text-align: justify;
 }
@@ -134,14 +138,14 @@ body{
 .title{
     width: 80%;
     font-size: 7vmin;
-    color: #ddd;
+    color: #000;
     padding: 40px;
     cursor: pointer;
     transition: .3s;
 }
 
 .title:hover{
-    color: #fff;
+    color: #ddd;
 }
 
 
@@ -152,7 +156,7 @@ body{
 }
 
 .image img{
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     margin: 40px;
@@ -170,10 +174,11 @@ body{
 
 #aside{
     position: relative;
-    top: 30vh;
-    width: 20%;
-    height: 500px;
+    top: 0;
+    width: 15%;
+    height: 100%;
     padding: 10px;
+    background-color: #fff;
 }
 
 #aside .box-aside li{
@@ -184,16 +189,16 @@ body{
 #aside .box-aside li a{
     text-decoration: none;
     font-size: 3vmin;
-    color: #ddd;
+    color: #000;
     padding: 2px;
 }
 
 #aside .box-aside p, #aside .box-input p{
-    font-size: 3vmin;
+    font-size: 2vmin;
     text-indent: 20px;
-    cursor: pointer;
     text-align: justify;
     margin: 10px;
+    color: #000;
 }
 
 #aside #search{
@@ -206,10 +211,11 @@ body{
     outline: none;
     padding: 5px;
     margin: 20px 0;
-    font-size: 3vmin;
+    font-size: 2vmin;
     border-radius: 5px;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #000000;
+    color: #000;
 }
 
 #aside .box-input{
@@ -218,8 +224,9 @@ body{
 }
 
 #aside .box-input h2{
-    font-size: 4vmin;
+    font-size: 2vmin;
     margin: 10px 0;
+    color: #000;
 }
 
 
@@ -244,6 +251,7 @@ body{
 .item p{
     text-transform: uppercase;
     font-size: 3vmin;
+    color: #ddd;
 }
 
 
@@ -260,6 +268,7 @@ body{
 
 p {
     text-align: justify;
+    color: #000;
 }
 
 ul {
@@ -268,7 +277,7 @@ ul {
 
 .footer {
     padding: 70px 0;
-    margin-top: 200px;
+    background-color: #fff;
 }
 
 .footer-col {
@@ -280,6 +289,7 @@ ul {
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 35px;
+    color: #000;
     position: relative;
 }
 
@@ -288,7 +298,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: rgb(255, 255, 255);
+    background-color: #000;
     height: 2px;
     box-sizing: border-box;
     width: 200px;
@@ -300,16 +310,15 @@ ul {
 
 .footer-col ul li a {
     font-size: 16px;
-    color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #000;
     display: block;
     transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-    color: rgb(255, 255, 255);
+    color: #ddd;
     padding-left: 8px;
 }
 
